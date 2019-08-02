@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    text-align: center;
+    background-image: url("https://static1.squarespace.com/static/52991946e4b06bb4b8f46779/t/55f8191ee4b0fb0e9ba809b5/1541714042695/");
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+header{
+    border: 10px groove orangered;
+    background: orange;
+    color: maroon;
+    text-decoration: underline overline;
+    width: 70%;
+    align-self: center
+}
+
+div {
+    display: flex;
+    margin: 10px;
+    width: 400px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.choices{
+    border: 10px outset orangered;
+    background: orange;
+    color: maroon;
+}
+#choice{
+    justify-self: center;
+    align-self: center;
+    border: 10px groove orangered;
+    background: orange;
+    color: maroon;
+    text-decoration: underline overline;
+    color: maroon;
+}
+
+#pic{
+    align-self: center;
+    border: 10px groove orangered;
+    background: #e49b0f;
+    width: 200px;
+    height: 200px;
+    padding: 10px
+}
+
+#story_religion{
+align-self: flex-end
+}
+
+nav{
+    display: flex
+}
